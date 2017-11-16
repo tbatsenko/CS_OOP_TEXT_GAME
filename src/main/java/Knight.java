@@ -8,10 +8,11 @@ public class Knight extends Character{
     private int power = 2;
     private int hp = 2;
 
-    Knight(){
+    public Knight(int power, int hp) {
         this.power = power;
         this.hp = hp + random.nextInt(20);
     }
+
 
     @Override
     public void kick(Character c){

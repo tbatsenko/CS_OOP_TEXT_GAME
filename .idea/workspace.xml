@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00836fb1-4fa2-41ab-9396-a8899fe93498" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Character.java" afterPath="$PROJECT_DIR$/src/main/java/Character.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CharacterFactory.java" afterPath="$PROJECT_DIR$/src/main/java/CharacterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Elf.java" afterPath="$PROJECT_DIR$/src/main/java/Elf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GameManager.java" afterPath="$PROJECT_DIR$/src/main/java/GameManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Hobbit.java" afterPath="$PROJECT_DIR$/src/main/java/Hobbit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/King.java" afterPath="$PROJECT_DIR$/src/main/java/King.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Knight.java" afterPath="$PROJECT_DIR$/src/main/java/Knight.java" />
     </list>
@@ -61,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="King.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="King.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/King.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="312">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -111,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/main/java/CharacterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Elf.java" />
         <option value="$PROJECT_DIR$/src/main/java/GameManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/King.java" />
         <option value="$PROJECT_DIR$/src/main/java/Knight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/King.java" />
       </list>
     </option>
   </component>
@@ -294,12 +289,12 @@
       <updated>1509877501371</updated>
       <workItem from="1509877507199" duration="2960000" />
       <workItem from="1510851509669" duration="1248000" />
-      <workItem from="1510853364729" duration="2331000" />
+      <workItem from="1510853364729" duration="2671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6539000" />
+    <option name="totallyTimeSpent" value="6879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="746" extended-state="6" />
@@ -408,18 +403,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/King.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Knight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/King.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="312">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
