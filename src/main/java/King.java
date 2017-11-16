@@ -1,12 +1,12 @@
 import java.util.Random;
 
 public class King extends Character{
-    Random random = new Random();
+    private Random random = new Random();
 
     // King: power 5-15, hp 5-15,
     // kick(decrease number of hp of the enemy by random number which will be in range of his power)
-    protected int power = 5;
-    protected int hp = 5;
+    private int power = 5;
+    private int hp = 5;
 
 
     public King(){

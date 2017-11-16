@@ -1,11 +1,10 @@
 public abstract class Character {
-    public int power=0;
-    public int hp=0;
-
+    int power=0;
+    int hp=0;
 
     public abstract void kick(Character c);
 
-    public boolean isAlive(){
+    boolean isAlive(){
         return hp > 0;
     }
 }

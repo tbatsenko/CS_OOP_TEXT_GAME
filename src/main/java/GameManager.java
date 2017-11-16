@@ -4,7 +4,7 @@ public class GameManager {
 
     //GameManager: void fight(Character c1, Character c2) - to provide fight between to characters
     //and explaing via command line what happens during the fight, till both of the characters are alive.
-    Random random = new Random();
+    private Random random = new Random();
 
     void fight(Character c1, Character c2) {
         System.out.println(c1.getClass().getName() + " will fight " + c2.getClass().getName() + "soon!");
@@ -27,7 +27,7 @@ public class GameManager {
             if (c2.isAlive()) {
                 System.out.println(c2.getClass().getName() + "is kicking " + c1.getClass().getName());
                 c2.kick(c1);
-                if (c1.isAlive() == false) {
+                if (!c1.isAlive()) {
                     System.out.println(c1.getClass().getName() + "is dead!");
                     break;
                 } else {

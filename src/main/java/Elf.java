@@ -1,6 +1,6 @@
 public class Elf extends Character{
-    protected int power = 10;
-    protected int hp = 10;
+    private int power = 10;
+    private int hp = 10;
 
     public Elf(){
         this.power = power;

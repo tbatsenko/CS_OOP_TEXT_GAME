@@ -1,6 +1,6 @@
 public class Hobbit extends Character {
-    protected int power = 0;
-    protected int hp = 3;
+    private int power = 0;
+    private int hp = 3;
 
     public Hobbit(){
         this.power = power;
@@ -12,7 +12,7 @@ public class Hobbit extends Character {
         toCry();
     }
 
-    public void toCry(){
+    private void toCry(){
         System.out.println(" I can't kick anyone, I'm crying :'( ");
     }
 }
