@@ -95,10 +95,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>LATEST</version>
+                <version>3.7</version>
 
                 <configuration>
-                    <linkref>3.7</linkref>
+                    <linkXref>true</linkXref>
                     <sourceEncoding>UTF8</sourceEncoding>
                     <minimumTokens>30</minimumTokens>
                     <targetJdk>1.7</targetJdk>
