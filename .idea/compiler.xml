@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="textgametbatsenkocom" target="LATEST" />
+      <module name="textgametbatsenkocom" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
