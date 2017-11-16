@@ -98,7 +98,7 @@
                 <version>LATEST</version>
 
                 <configuration>
-                    <linkref>true</linkref>
+                    <linkref>3.7</linkref>
                     <sourceEncoding>UTF8</sourceEncoding>
                     <minimumTokens>30</minimumTokens>
                     <targetJdk>1.7</targetJdk>
