@@ -2,20 +2,38 @@ public class Elf extends Character{
     private int power = 10;
     private int hp = 10;
 
-    public Elf(){
+    Elf(){
         this.power = power;
         this.hp = hp;
     }
 
     @Override
     public void kick(Character c){
-        if(power > c.power){
-            c.hp = 0;
-            System.out.println("Elf just killed somebody!");
+        if(this.power > c.getHp()){
+            c.setHp(0);
+            System.out.println("Elf just killed " + c.getClass().getName());
         }else {
-            c.power -= 1;
-            System.out.println("Elf just kicked somebody and he lost 1pw !");
+            c.setPower(this.power - 1);
+            System.out.println("Elf just kicked " + c.getClass().getName() + " and he lost 1pw !");
         }
 
+    }
+
+    @Override
+    void setPower(int power) { this.power = power; }
+
+    @Override
+    void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    @Override
+    int getPower() {
+        return this.power;
+    }
+
+    @Override
+    int getHp() {
+        return this.hp;
     }
 }

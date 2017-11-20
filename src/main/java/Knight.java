@@ -2,22 +2,43 @@ import java.util.Random;
 
 public class Knight extends Character{
 
-    private Random random = new Random();
+    private static Random random = new Random();
+
 
     // Knight: power 2-12, hp 2-21, kick(like King)
-    private int power = 2;
-    private int hp = 2;
+    private static int power = 2;
+    private static int hp = 2 + random.nextInt(20);
 
-    public Knight() {
+    @Override
+    public void setPower(int power) {
         this.power = power;
-        this.hp = hp + random.nextInt(20);
+    }
+
+    @Override
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    @Override
+    public int getPower() {
+        return this.power;
+    }
+
+    @Override
+    public int getHp() {
+        return this.hp;
+    }
+
+    Knight() {
+        this.power = power;
+        this.hp = hp;
     }
 
 
     @Override
     public void kick(Character c){
         power = random.nextInt(11) + 2;
-        c.hp -= power;
+        c.setHp(c.getHp() - power);
         System.out.println("Knight just hit someone with a power of " + power);
     }
 }

@@ -5,22 +5,14 @@ public class CharacterFactory {
 
     private Random random = new Random();
 
-    private int character_int = random.nextInt(4);
+
 
     public Character createCharacter() {
+        int character_int = random.nextInt(4);
+
         if (character_int == 0) return new Hobbit();
         else if (character_int == 1) return new Elf();
-        else if (character_int == 2) {
-
-            return new King();
-
-        } else {
-
-            return new Knight();
-
-        }
-
+        else if (character_int == 2) return new King();
+        else return new Knight();
     }
-
-
 }
